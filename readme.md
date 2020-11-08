@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/re_vKvaTQnq7NhaQ-9sxQQ/badge)](https://hackmd.io/re_vKvaTQnq7NhaQ-9sxQQ)
 **#Protocol RR **
 
 Objetivo : 
@@ -45,24 +46,26 @@ Unidad de análisis- definición de Calidad Código (atributos)
 ```
 - [x]  Mención de CQ en Abstract 
 
-- [ ]  Define "Code Quality" (copiar literalmente): `dentro del objetivo del paper entender: "code quality issues such as code smells, antipatterns, and coding style violations in the pull request code" `
-- [ ]  Menciona prácticas (Ej: Code Review (CR) PR (Pull Request) Estándares (STD) detallar ): `Code Review, Pull Requests`
-- [ ]  Tools (¿Cuales?): `PMD`
+- [x]  Define "Code Quality" (copiar literalmente): ` "code quality issues such as code smells, antipatterns, and coding style violations in the pull request code" `
+- [x]  Menciona prácticas (Ej: Code Review (CR) PR (Pull Request) Estándares (STD) detallar ): `Code Review, Pull Requests, Technical Debt, Static Code Analisis`
 
-- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc): 
+- [x]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc): 
 ```
 mantenibilidad,tolerancia a fallas,defectos,
-estilo de codificación, diseño, error prone, documentation, , performance,
+estilo de codificación, diseño, error prone, documentation,performance,
 seguridad
 ```
 - [x]  Atributos de Codificación : 
-` Code Smells, anti patterns, code Style`
-- [ ]  Mención de herramientas ¿Cuáles?: `Checkstyle, Findbugs, SonarQube`
+` Code Smells, anti patterns, code Style, clean code`
+- [x]  Mención de herramientas ¿Cuáles?: `Checkstyle, Findbugs, SonarQube`
 - [x]  "Cita a referenciar en paper" :  ` ..we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project...` , `..."Quality was revealed as one of the top priorities for developers..."`, `..."We measured code quality against a set of rules pro- vided by PMD, one of the most frequently used open-source software tools for analyzing source code"`
-- [ ] Comentarios : - `Case Study` `menciona a GIT como tecnología y GITHub como repo central` y `PI asociada al tema RQ2. Does code quality affect pull request acceptance?`
+- [x] Comentarios : - `Case Study denro del contexto de ESE` `menciona a GIT como tecnología y GITHub como repo central` y `PI asociada al tema RQ2. Does code quality affect pull request acceptance?... 'Pull request are a verypoerfull instrument', Aporte de este paper: Code qualite does not seem to be a keydriver for the acceptance of PR`
 - [ ]  Referencias a otros artículos que mencionan Calidad Código : 
-- [ ] Author / TimeStamp / Referencia
-- [ ] Total Time (para estimación): 
+- [x] Author / TimeStamp / Referencia
+> [name=Alejandro Adorjan]
+> [time=Sun, Nov 8, 2020 3:55 PM]
+- [x] Total Time (para estimación): 
+- [time: 15 minutos ] 
 
 
 
@@ -79,19 +82,18 @@ seguridad
   year={2019}
 }
 ```
-- [x]  Mención de CQ en Abstract 
+- [ ]  Mención de CQ en Abstract 
 
-- [ ]  Define "Code Quality" (copiar literalmente):
-- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): 
-- [ ]  Tools (¿Cuales?): 
-- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   
-- [x]  Atributos de Codificación : 
+- [ ]  Define "Code Quality" (copiar literalmente):` `
+- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): ` ` `
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   ` `
+- [ ]  Atributos de Codificación : 
 ` Code Smells, anti patterns, code Style`
-- [ ]  Mención de herramientas ¿Cuáles?:
-- [x]  "Cita a referenciar en paper" :  ` we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project`
-- [ ]  Referencias a otros artículos que mencionan Calidad Código : 
+- [ ]  Mención de herramientas ¿Cuáles?:` `
+- [ ]  "Cita a referenciar en paper" :  ` `` `
+- [ ]  Referencias a otros artículos que mencionan Calidad Código : ` `
 - [ ] Author / TimeStamp / Referencia
-- [ ] Total Time (para estimación): 
+- [ ] Total Time (para estimación): ` `
 
 
 # Paper 1 (Martín): 
@@ -104,16 +106,15 @@ seguridad
   year={2019}
 }
 ```
-- [x]  Mención de CQ en Abstract 
+- [ ]  Mención de CQ en Abstract 
 
 - [ ]  Define "Code Quality" (copiar literalmente):
-- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): 
-- [ ]  Tools (¿Cuales?): 
-- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   
-- [x]  Atributos de Codificación : 
+- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): ` `
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   ` `
+- [ ]  Atributos de Codificación : ` `
 ` Code Smells, anti patterns, code Style`
-- [ ]  Mención de herramientas ¿Cuáles?:
-- [x]  "Cita a referenciar en paper" :  ` we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project`
+- [ ]  Mención de herramientas ¿Cuáles?:` `
+- [ ]  "Cita a referenciar en paper" :  ` t`
 - [ ]  Referencias a otros artículos que mencionan Calidad Código : 
 - [ ] Author / TimeStamp / Referencia
 - [ ] Total Time (para estimación): 
@@ -127,3 +128,5 @@ seguridad
 > Definiciones: 
 1. 
 2.
+
+
