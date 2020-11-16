@@ -184,15 +184,25 @@ NULL
 ```
 -   DEF_CQ_ABSTRACT 
 ```
+Define por la negativa ya que menciona 'cosas' de mala QC
+"[code] quality flaws such as code smells, anti-patterns, security
+vulnerabilities, and coding style violations"
 
 ```
 -  DEF_CQ_PAPER 
 ```
-NULL
+En lo siguiente hay una expresión que podría entenderse también como una definición de code quality a alto nivel.
+"Previous work confirmed that the presence of PMD issues in the code [some code quality issues], including the code smells and anti-patterns collected
+by PMD, significantly increases the risk of faults and maintenance effort."
+
+Code quality relacionado a technical debt
+"PMD is an open-source tool that aims to identify issues that can lead to technical debt accumulating during development."
 ```
 -  CQ_ATRIB
 ```
-NULL
+- Software maintainability
+- Low fault-proneness
+"Therefore, we expect that developers take care of these issues, in order to increase software maintainability and decrease fault-proneness."
 ```
 - CQ_PRAC/TECN
 ```
@@ -205,7 +215,10 @@ NULL
 - CQ_PEOP
 `NULL`
 - CQ_TOOL
-`NULL`
+Herramienta PMD para encontrar code quality flaws.
+PMD -> Herramienta de análisis estático (por si luego usamos clasificaciones de algún tipo).
+"We analyzed the quality flaws [...] using PMD, one of the most frequently used static analysis tools"
+
 - CQ_OTROS: 
 `NULL`
 
@@ -218,13 +231,19 @@ NULL
 
 - CQ_CITE_@ref: 
 ```
-NULL
+"However, the respondents specified quality differently from their pespective perception, as conformance, good available documentation, and contributor reputation." , Gousios et al. (2015) https://ieeexplore.ieee.org/document/7194588
+
+Esto puede servir para introducción como motivación o como trabajos previos.
+"Moreover, they report that developers generally associate the quality of a pull request with the quality of its description, complexity, and revertability." . Kononenko et al. (2018)
+https://dl.acm.org/doi/10.1145/3183519.3183542
 ```
 
 - Author / TimeStamp Start/ End
 > [name= Diego]
-> START_[time=]
-> END_ [time=]
+> START_[time=11:52]
+> END_ [time=14:53]
+> PAUSA_ [2 HORAS 9 MINUTOS]
+> TIME ON TASK_ [52 MINUTOS]
 
 
 # Paper 1 MARTÍN: 
@@ -240,11 +259,15 @@ NULL
 ```
 -   DEF_CQ_ABSTRACT 
 ```
-NULL
+quality flaws such as code smells, anti-patterns, security
+vulnerabilities, and coding style violations in a pull request’s code affect the chance of its acceptance
+when reviewed by a maintainer
 ```
 -  DEF_CQ_PAPER 
 ```
-NULL
+We considered the quality flaws highlighted by PMD rules (code smells, anti-patterns, and coding style violations),
+
+
 ```
 -  CQ_ARQ_ATRIB
 ```
@@ -256,19 +279,54 @@ NULL
 ```
 - CQ_METH/PROC/STD
 ```
-NULL
+pull request
+review
+static analysis
+code smells
+coding style
+technical debt
+code coverage 
 ```
 - CQ_PEOP
 `NULL`
 - CQ_TOOL
-`NULL`
+`PMD
+Checkstyle
+FindBugs
+SonarQube`
 - CQ_OTROS: 
-`NULL`
+`implementation of new features seem to be more important acceptance factors than any other aspects, including quality (Gousios et al., 2015; Calefato et al., 2017)
+
+Considering the code style as an influencing factor for inte- grating pull requests, several code style criteria have generally revealed high divergence while several other criteria always in- dicated consistency. However, code style inconsistency between pull requests and the code would affect the process of merging them into the code (Yu et al., 2015).
+
+Integrators decide to accept a contribution after analyzing source code quality, code style, documentation, granularity, and adherence to project conventions (Gousios et al., 2014). 
+
+
+In another work, Gousios et al. (2015) conducted a survey aimed at characterizing the key factors considered in the decision- making process of pull request acceptance. Quality was revealed as one of the top priorities for developers. The most important ac- ceptance factors they identified are targeted area importance, test cases, and code quality. However, the respondents specified qual- ity differently from their respective perception, as conformance, good available documentation, and contributor reputation.
+
+Kononenko et al. (2018) investigated the pull request accep- tance process. Developers’ experience and affiliation were significant factors in both models. Moreover, they report that developers generally associate the quality of a pull request with the quality of its description, complexity, and revertability. 
+
+`
+
 
 ---
 
 
 -  Comentarios : - 
+
+Menciones a tests (unit, integration). No se profundiza en niveles o automatización.
+
+Mención a CI, herramientas como TravisCI, CloudBees.
+
+
+Reflexión: Regarding the factors considered to measure their quality, they are based on the developers’ perception.
+
+Discusión: the adoption of pull request quality analysis tools such as SonarQube or the usage of PMD before submitting a pull request will increase the quality of their code; increasing the overall software maintainability and decreasing the fault proneness that could be increased from the injection of some PMD issues.
+
+The results complement those obtained by Soares et al. (2015a) and Calefato et al. (2017), namely, that the reputation of the developer might be more important than the quality of the developed code. 
+
+Reflexión: We are aware that code quality is a broad and general term and that other aspects such as the test coverage of pull requests or the number of bugs generated by the code in pull requests could bring different results.
+
 
 ---
 
@@ -279,8 +337,8 @@ NULL
 
 - Author / TimeStamp Start/ End
 > [name= Martín]
-> START_[time=]
-> END_ [time=]
+> START_[time=9:10]
+> END_ [time=9:40]
 
 **Resumen RR: **
 
@@ -317,7 +375,7 @@ Source: Scopus
 ```
 2) Gupta, A., Suri, B., Wadhwa, B.
 
-# A detection tool for code bad smells in java source code
+# 2. A detection tool for code bad smells in java source code
 
 ```
 (2021) Advances in Intelligent Systems and Computing, 1086, pp. 479-488.
@@ -332,7 +390,7 @@ Source: Scopus
 ```
 3) Tahmooresi, H., Heydarnoori, A., Nadri, R.
 
-# Studying the Relationship Between the Usage of APIs Discussed in the Crowd and Post-Release
+# 3. Studying the Relationship Between the Usage of APIs Discussed in the Crowd and Post-Release
 
 # Defects
 
@@ -349,7 +407,7 @@ Source: Scopus
 ```
 4) Meldrum, S., Licorish, S.A., Owen, C.A., Savarimuthu, B.T.R.
 
-# Understanding stack overflow code quality: A recommendation of caution
+# 4. Understanding stack overflow code quality: A recommendation of caution
 
 ```
 (2020) Science of Computer Programming, 199, art. no. 102516,.
@@ -370,7 +428,7 @@ Source: Scopus
 ```
 5) Lenarduzzi, V., Lomio, F., Saarimäki, N., Taibi, D.
 
-# Does migrating a monolithic system to microservices decrease the technical debt?
+# 5. Does migrating a monolithic system to microservices decrease the technical debt?
 
 ```
 (2020) Journal of Systems and Software, 169, art. no. 110710,. Cited 1 time.
@@ -385,7 +443,7 @@ Source: Scopus
 ```
 6) Kolahdouz-Rahimi, S., Lano, K., Sharbaf, M., Karimi, M., Alfraihi, H.
 
-# A comparison of quality flaws and technical debt in model transformation specifications
+# 6. A comparison of quality flaws and technical debt in model transformation specifications
 
 ```
 (2020) Journal of Systems and Software, 169, art. no. 110684,. Cited 1 time.
@@ -400,7 +458,7 @@ Source: Scopus
 ```
 7) Antinyan, V.
 
-# Evaluating Essential and Accidental Code Complexity Triggers by Practitioners&amp;rsquo;
+# 7. Evaluating Essential and Accidental Code Complexity Triggers by Practitioners&amp;rsquo;
 
 # Perception
 
@@ -417,7 +475,7 @@ Source: Scopus
 ```
 8) Pavlič, L., Heričko, M., Beranič, T.
 
-# An expert judgment in source code quality research domain—a comparative study between
+# 8. An expert judgment in source code quality research domain—a comparative study between
 
 # professionals and students
 
@@ -458,7 +516,7 @@ Source: Scopus
 ```
 10) Abdellatif, A., Zeng, Y., Elshafei, M., Shihab, E., Shang, W.
 
-# Simplifying the Search of npm Packages
+# 10. Simplifying the Search of npm Packages
 
 ```
 (2020) Information and Software Technology, 126, art. no. 106365,.
@@ -473,7 +531,7 @@ Source: Scopus
 ```
 11) Pecorelli, F., Di Lillo, G., Palomba, F., De Lucia, A.
 
-# VITRuM: A Plug-In for the Visualization of Test-Related Metrics
+# 11. VITRuM: A Plug-In for the Visualization of Test-Related Metrics
 
 ```
 (2020) ACM International Conference Proceeding Series,.
@@ -488,7 +546,7 @@ Source: Scopus
 ```
 12) Riesch, M., Haider, M., Jirauschek, C.
 
-# Project Skeletons for Scientific Software
+# 12. Project Skeletons for Scientific Software
 
 
 ```
@@ -508,7 +566,7 @@ Source: Scopus
 ```
 13) Sharma, T., Singh, P., Spinellis, D.
 
-# An empirical investigation on the relationship between design and architecture smells
+# 13. An empirical investigation on the relationship between design and architecture smells
 
 ```
 (2020) Empirical Software Engineering, 25 (5), pp. 4020-4068.
@@ -523,7 +581,7 @@ Source: Scopus
 ```
 14) Roy, D., Fakhoury, S., Lee, J., Arnaoudova, V.
 
-# A model to detect readability improvements in incremental changes
+# 14. A model to detect readability improvements in incremental changes
 
 ```
 (2020) IEEE International Conference on Program Comprehension, pp. 25-36.
@@ -538,7 +596,7 @@ Source: Scopus
 ```
 15) Da Silva, M.C., Cizotto, A.A.J., Paraiso, E.C.
 
-# A Developer Recommendation Method Based on Code Quality
+# 15. A Developer Recommendation Method Based on Code Quality
 
 ```
 (2020) Proceedings of the International Joint Conference on Neural Networks, art. no. 9207116,.
@@ -557,7 +615,7 @@ Source: Scopus
 ```
 Terms and conditions Privacy policy
 ```
-# Scalable Cloud-Based Tool to Empirically Detect Vulnerable Code Patterns in Large-Scale System
+# 16. Scalable Cloud-Based Tool to Empirically Detect Vulnerable Code Patterns in Large-Scale System
 
 ```
 (2020) IEEE International Conference on Electro Information Technology, 2020-July, art. no.
@@ -573,7 +631,7 @@ Source: Scopus
 ```
 17) Vlaovic, J., Vidakovic, M., Kovacevic, M., Kovacevic, B., Lukic, N.
 
-# Developing Consumer Electronics Software Using A-SPICE: Infotainment Development Experience
+# 17. Developing Consumer Electronics Software Using A-SPICE: Infotainment Development Experience
 
 ```
 (2020) IEEE Consumer Electronics Magazine, 9 (4), art. no. 9109410, pp. 104-110.
@@ -588,7 +646,7 @@ Source: Scopus
 ```
 18) Nakamaru, T., Matsunaga, T., Yamazaki, T., Akiyama, S., Chiba, S.
 
-# An Empirical Study of Method Chaining in Java
+# 18. An Empirical Study of Method Chaining in Java
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 17th International Conference on Mining Software
@@ -605,7 +663,7 @@ Source: Scopus
 ```
 19) Dey, T., Mousavi, S., Ponce, E., Fry, T., Vasilescu, B., Filippova, A., Mockus, A.
 
-# Detecting and Characterizing Bots that Commit Code
+# 19. Detecting and Characterizing Bots that Commit Code
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 17th International Conference on Mining Software
@@ -628,7 +686,7 @@ Source: Scopus
 ```
 20) Jebnoun, H., Braiek, H.B., Rahman, M.M., Khomh, F.
 
-# The Scent of Deep Learning Code: An Empirical Study
+# 20. The Scent of Deep Learning Code: An Empirical Study
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 17th International Conference on Mining Software
@@ -645,7 +703,7 @@ Source: Scopus
 ```
 21) Walden, J.
 
-# The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL
+# 21. The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 17th International Conference on Mining Software
@@ -662,7 +720,7 @@ Source: Scopus
 ```
 22) Gilson, F., Morales-Trujillo, M., Mathews, M.
 
-# How junior developers deal with their technical debt?
+# 22. How junior developers deal with their technical debt?
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM International Conference on Technical Debt, TechDebt 2020,
@@ -682,7 +740,7 @@ Terms and conditions Privacy policy
 ```
 23) Wu, Y.
 
-# Exploring the relationship between dockerfile quality and project characteristics
+# 23 ~~N/A Exploring the relationship between dockerfile quality and project characteristics~~
 
 ```
 (2020) Proceedings - International Conference on Software Engineering, art. no. 3382169, pp.
@@ -699,7 +757,7 @@ Source: Scopus
 ```
 24) Bai, G.R.
 
-# Improving students' testing practices
+# 24 ~~N/A. Improving students' testing practices~~
 
 ```
 (2020) Proceedings - International Conference on Software Engineering, art. no. 3381401, pp.
@@ -716,7 +774,7 @@ Source: Scopus
 ```
 25) Kurbatova, Z., Veselov, I., Golubev, Y., Bryksin, T.
 
-# Recommendation of Move Method Refactoring Using Path-Based Representation of Code
+# 25. Recommendation of Move Method Refactoring Using Path-Based Representation of Code
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 42nd International Conference on Software Engineering
@@ -733,7 +791,7 @@ Source: Scopus
 ```
 26) De Stefano, M., Pecorelli, F., Tamburri, D.A., Palomba, F., De Lucia, A.
 
-# Splicing Community Patterns and Smells: A Preliminary Study
+# 26. Splicing Community Patterns and Smells: A Preliminary Study
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM 42nd International Conference on Software Engineering
@@ -757,7 +815,7 @@ Source: Scopus
 ```
 27) Dominic, J., Ritter, C., Rodeghero, P.
 
-# Onboarding bot for newcomers to software engineering
+# 27 ~~N/A Onboarding bot for newcomers to software engineering~~
 
 ```
 (2020) Proceedings - 2020 IEEE/ACM International Conference on Software and System Processes,
@@ -774,7 +832,7 @@ Source: Scopus
 ```
 28) Jiang, L., Rewcastle, R., Denny, P., Tempero, E.
 
-# CompareCFG: Providing Visual Feedback on Code Quality Using Control Flow Graphs
+# 28 ~~N/A CompareCFG: Providing Visual Feedback on Code Quality Using Control Flow Graphs~~
 
 ```
 (2020) Annual Conference on Innovation and Technology in Computer Science Education, ITiCSE,
@@ -790,7 +848,7 @@ Source: Scopus
 ```
 29) Uddin, G., Khomh, F., Roy, C.K.
 
-# Mining API usage scenarios from stack overflow
+# 29. Mining API usage scenarios from stack overflow
 
 ```
 (2020) Information and Software Technology, 122, art. no. 106277,.
@@ -809,7 +867,7 @@ Terms and conditions Privacy policy
 ```
 30) Salah, A., Truong, Q.-T., Lauw, H.W.
 
-# Cornac: A comparative framework for multimodal recommender systems
+# 30. Cornac: A comparative framework for multimodal recommender systems
 
 ```
 (2020) Journal of Machine Learning Research, 21,.
@@ -821,7 +879,7 @@ Source: Scopus
 
 31) Subramanian, K., Maas, J., Borchers, J.
 
-# TRACTUS: Understanding and Supporting Source Code Experimentation in Hypothesis-Driven Data
+# 31. TRACTUS: Understanding and Supporting Source Code Experimentation in Hypothesis-Driven Data
 
 # Science
 
@@ -838,7 +896,7 @@ Source: Scopus
 ```
 32) Akbar, M.A., Huang, Z., Yu, Z., Mehmood, F., Hussain, Y., Hamza, M.
 
-# Towards continues code recommendation and implementation system: An Initial Framework
+# 32. Towards continues code recommendation and implementation system: An Initial Framework
 
 ```
 (2020) ACM International Conference Proceeding Series, pp. 439-444.
@@ -853,7 +911,7 @@ Source: Scopus
 ```
 33) Misra, V., Reddy, J.S.K., Chimalakonda, S.
 
-# Is there a correlation between code comments and issues?: An exploratory study
+# 33 N/A ~~Is there a correlation between code comments and issue ?: An exploratory study~~
 
 ```
 (2020) Proceedings of the ACM Symposium on Applied Computing, pp. 110-117.
@@ -876,7 +934,7 @@ Terms and conditions Privacy policy
 Brötz, B., De Mora, L., Diblen, F., Dreyer, L., Drost, N., Earnshaw, P., Hassler, B., Koldunov, N.,
 Little, B., Loosveldt Tomas, S., Zimmermann, K.
 ```
-# Earth System Model Evaluation Tool (ESMValTool) v2.0-technical overview
+# 34 Earth System Model Evaluation Tool (ESMValTool) v2.0-technical overview
 
 ```
 (2020) Geoscientific Model Development, 13 (3), pp. 1179-1199. Cited 4 times.
@@ -888,11 +946,11 @@ DOI: 10.5194/gmd-13-1179-
 Document Type: Article
 Publication Stage: Final
 Access Type: Open Access
-Source: Scopus
+Sour ce: Scopus
 ```
 35) Ludwig, J., Cline, D., Novstrup, A.
 
-# A Case Study Using CBR-Insight to Visualize Source Code Quality
+# 35 A Case Study Using CBR-Insight to Visualize Source Code Quality
 
 ```
 (2020) IEEE Aerospace Conference Proceedings, art. no. 9172526,.
@@ -907,7 +965,7 @@ Source: Scopus
 ```
 36) Panigrahi, R., Kuanar, S.K., Kumar, L.
 
-# Application of Naïve Bayes classifiers for refactoring Prediction at the method level
+# 36. Application of Naïve Bayes classifiers for refactoring Prediction at the method level
 
 ```
 (2020) 2020 International Conference on Computer Science, Engineering and Applications, ICCSEA
@@ -923,7 +981,7 @@ Source: Scopus
 ```
 37) Rimawi, D., Zein, S.
 
-# A static analysis of android source code for design patterns usage
+# 37. A static analysis of android source code for design patterns usage
 
 ```
 (2020) International Journal of Advanced Trends in Computer Science and Engineering, 9 (2), pp.
@@ -944,7 +1002,7 @@ Source: Scopus
 ```
 38) Vassallo, C., Panichella, S., Palomba, F., Proksch, S., Gall, H.C., Zaidman, A.
 
-# How developers engage with static analysis tools in different contexts
+# 38. How developers engage with static analysis tools in different contexts
 
 ```
 (2020) Empirical Software Engineering, 25 (2), pp. 1419-1457. Cited 1 time.
@@ -959,7 +1017,7 @@ Source: Scopus
 ```
 39) Badanahatti, A., Pillutla, S.
 
-# Interleaving Software Craftsmanship Practices in Medical Device Agile Development
+# 39. ~~N/A Interleaving Software Craftsmanship Practices in Medical Device Agile Development~~
 
 ```
 (2020) ACM International Conference Proceeding Series, art. no. 3385047,.
@@ -974,7 +1032,7 @@ Source: Scopus
 ```
 40) Kirk, D., Crow, T., Luxton-Reilly, A., Tempero, E.
 
-# On assuring learning about code quality
+# 40 On assuring learning about code quality
 
 ```
 (2020) ACE 2020 - Proceedings of the 22nd Australasian Computing Education Conference, Held in
@@ -990,7 +1048,7 @@ Source: Scopus
 ```
 41) Li, G., Liu, H., Jin, J., Umer, Q.
 
-# Deep Learning Based Identification of Suspicious Return Statements
+# 41. Deep Learning Based Identification of Suspicious Return Statements
 
 ```
 (2020) SANER 2020 - Proceedings of the 2020 IEEE 27th International Conference on Software
@@ -1013,9 +1071,7 @@ Source: Scopus
 ```
 42) Moe, M.M., Oo, K.K.
 
-# Consequences of Dependent and Independent Variables based on Acceptance Test Suite Metric
-
-# Using Test Driven Development Approach
+# 42. Consequences of Dependent and Independent Variables based on Acceptance Test Suite Metric Using Test Driven Development Approach
 
 ```
 (2020) 2020 IEEE Conference on Computer Applications, ICCA 2020, art. no. 9022828,.
@@ -1030,9 +1086,7 @@ Source: Scopus
 ```
 43) Moe, M.M., Oo, K.K.
 
-# Comparative results of dependent and independent variables focused on regression analysis using
-
-# test-driven development
+# 43. Comparative results of dependent and independent variables focused on regression analysis using test-driven development
 
 ```
 (2020) WCSE 2020: 2020 10th International Workshop on Computer Science and Engineering, pp.
@@ -1049,7 +1103,7 @@ Source: Scopus
 ```
 44) Papis, B.K., Grochowski, K., Subzda, K., Sijko, K.
 
-# Experimental evaluation of test-driven development with interns working on a real industrial project
+# 44. Experimental evaluation of test-driven development with interns working on a real industrial project
 
 ```
 (2020) IEEE Transactions on Software Engineering,.
@@ -1069,7 +1123,7 @@ Terms and conditions Privacy policy
 ```
 45) Tsoupidi, R.M., Castañeda Lozano, R., Baudry, B.
 
-# Constraint-Based Software Diversification for Efficient Mitigation of Code-Reuse Attacks
+# 45. Constraint-Based Software Diversification for Efficient Mitigation of Code-Reuse Attacks
 
 ```
 (2020) Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence
@@ -1085,7 +1139,7 @@ Source: Scopus
 ```
 46) Di Sorbo, A., Grano, G., Aaron Visaggio, C., Panichella, S.
 
-# Investigating the criticality of user-reported issues through their relations with app rating
+# 46. Investigating the criticality of user-reported issues through their relations with app rating
 
 ```
 (2020) Journal of Software: Evolution and Process,.
@@ -1100,7 +1154,7 @@ Source: Scopus
 ```
 47) Saranti, A., Taraghi, B., Ebner, M., Holzinger, A.
 
-# Property-Based Testing for Parameter Learning of Probabilistic Graphical Models
+# 47. Property-Based Testing for Parameter Learning of Probabilistic Graphical Models
 
 ```
 (2020) Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence
@@ -1116,7 +1170,7 @@ Source: Scopus
 ```
 48) Nazir, S., Fatima, N., Chuprat, S.
 
-# Situational modern code review framework to support individual sustainability of software engineers
+# 48. Situational modern code review framework to support individual sustainability of software engineers
 
 ```
 (2020) International Journal of Advanced Computer Science and Applications, 11 (6), pp. 366-375.
@@ -1138,7 +1192,7 @@ Source: Scopus
 ```
 49) Badreddin, O.
 
-# Distributed software health and quality metrics with blockchains
+# 49. ~~ N/ADistributed software health and quality metrics with blockchains~~
 
 ```
 (2020) CASCON 2019 Proceedings - Conference of the Centre for Advanced Studies on
@@ -1152,7 +1206,7 @@ Source: Scopus
 
 50) Spasić, M., Janičić, M.V.
 
-# Verification supported refactoring of embedded sql
+# 50. Verification supported refactoring of embedded sql
 
 ```
 (2020) Software Quality Journal,. Cited 1 time.
@@ -1167,7 +1221,7 @@ Source: Scopus
 ```
 51) Rakshith, M.N., Shivaprasad, N.
 
-# Build Optimization Using Jenkins
+# ~~51. N/A Build Optimization Using Jenkins~~
 
 ```
 (2020) Lecture Notes on Data Engineering and Communications Technologies, 38, pp. 401-409.
@@ -1183,7 +1237,7 @@ Source: Scopus
 ```
 52) Masmali, O., Badreddin, O.
 
-# Towards a model-based fuzzy software quality metrics
+# ~~52. Towards a model-based fuzzy software quality metrics~~
 
 ```
 (2020) MODELSWARD 2020 - Proceedings of the 8th International Conference on Model-Driven
@@ -1203,7 +1257,7 @@ Source: Scopus
 ```
 53) Sun, Q., Wu, J., Liu, K.
 
-# Toward Understanding Students' Learning Performance in an Object-Oriented Programming Course:
+# 53. Toward Understanding Students' Learning Performance in an Object-Oriented Programming Course:
 
 # The Perspective of Program Quality
 
@@ -1237,7 +1291,7 @@ Source: Scopus
 ```
 55) Fronza, I., Hellas, A., Ihantola, P., Mikkonen, T.
 
-# Code Reviews, Software Inspections, and Code Walkthroughs: Systematic Mapping Study of
+# 55. Code Reviews, Software Inspections, and Code Walkthroughs: Systematic Mapping Study of
 
 # Research Topics
 
@@ -1254,7 +1308,7 @@ Source: Scopus
 ```
 56) Mumtaz, H., Latif, S., Beck, F., Weiskopf, D.
 
-# Exploranative Code Quality Documents
+# 56. Exploranative Code Quality Documents
 
 
 ```
@@ -1274,7 +1328,7 @@ Source: Scopus
 ```
 57) Ochodek, M., Hebig, R., Meding, W., Frost, G., Staron, M.
 
-# Recognizing lines of code violating company-specific coding guidelines using machine learning: A
+# 57. Recognizing lines of code violating company-specific coding guidelines using machine learning: A
 
 # Method and Its Evaluation
 
@@ -1292,7 +1346,7 @@ Source: Scopus
 ```
 58) Aman, H., Amasaki, S., Yokogawa, T., Kawahara, M.
 
-# A Survival Analysis-Based Prioritization of Code Checker Warning: A Case Study Using PMD
+# 58 ~~N/A A Survival Analysis-Based Prioritization of Code Checker Warning: A Case Study Using PMD~~
 
 ```
 (2020) Studies in Computational Intelligence, 844, pp. 69-83.
@@ -1307,7 +1361,7 @@ Source: Scopus
 ```
 59) Shaheen, A., Qamar, U., Nazir, A., Bibi, R., Ansar, M., Zafar, I.
 
-# OOCQM: Object Oriented Code Quality Meter
+# 59. OOCQM: Object Oriented Code Quality Meter
 
 ```
 (2020) Studies in Computational Intelligence, 848, pp. 149-163.
@@ -1326,7 +1380,7 @@ Terms and conditions Privacy policy
 ```
 60) Ruiz-Rube, I., Person, T., Dodero, J.M., Mota, J.M., Sánchez-Jara, J.M.
 
-# Applying static code analysis for domain-specific languages
+# 60. Applying static code analysis for domain-specific languages
 
 ```
 (2020) Software and Systems Modeling, 19 (1), pp. 95-110. Cited 1 time.
