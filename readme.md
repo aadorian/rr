@@ -3,12 +3,16 @@
 
 
 
+
+
 * Motivación - No se presenta en la literatura una definición de consenso respecto de que se entiende por calidad de código.
 Objetivo :  Lograr una definición de QC y sus principales características / dimensiones a partir de una RR.
 
 _PI : ¿Qué se entiende por Calidad de Código?
 
 _PI: ¿Qué técnicas, métodos, prácticas, estándares y herramientas se utilizan en la industria para controlar la calidad del código?
+
+_PI; ¿Qué atributos de Q de código se prenentan en los artículos seleccionados?
 
 Def. QC:   * {max min (ATRIB_Q Interna/Externa) (Costos)}
             sa restricciones contexto* 
@@ -23,6 +27,8 @@ Keywords: Code Quality AND Software
 
 ---
 ` TITLE-ABS-KEY ( "code quality"  AND  software )  AND  ( LIMIT-TO ( PUBYEAR ,  2021 )  OR  LIMIT-TO ( PUBYEAR ,  2020 ) )` 
+
+---
 
 
 Fuente: Scopus
@@ -62,13 +68,20 @@ NULL
 ```
 NULL
 ```
-- CQ_PEOP/TOOL
+- CQ_PEOP
+`NULL`
+- CQ_TOOL
 `NULL`
 - CQ_OTROS: 
 `NULL`
+- COMMENTS:
 
 ---
 
+Protocolo en relacion a una segunda iteración. 
+Seleccionamos de los 60 artículos el indexado 5,10,15,25, y 30 para complementar el ya analizado previamente y realizar una primera extracción de aplicacion del template
+
+Cada paper se imprimió y establecie el etiquetado (algo parecido a lo realizadao en paper anterior y posteriormente search en mendeley para poder replicar)
 
 -  Comentarios : - ``
 ---
@@ -108,7 +121,7 @@ NULL
 ```
 ` ..we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project...` , `..."Quality was revealed as one of the top priorities for developers..."`, `..."We measured code quality against a set of rules pro- vided by PMD, one of the most frequently used open-source software tools for analyzing source code"`
 
--  CQ_ARQ_ATRIB
+-  CQ_ATRIB
 ```
 mantenibilidad,tolerancia a fallas,defectos,
 estilo de codificación, diseño, error prone, documentation,performance,
