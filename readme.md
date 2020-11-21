@@ -446,7 +446,7 @@ Source: Scopus
 ```
 (2020) Journal of Systems and Software, 169, art. no. 110710,. Cited 1 time.
 ```
-5) https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087383887&doi=10.1016%2fj.jss.2020.110710&partnerID=40&md5=eecb57d0a427b954cb57b950789b
+- [] 5) https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087383887&doi=10.1016%2fj.jss.2020.110710&partnerID=40&md5=eecb57d0a427b954cb57b950789b
 DOI: 10.1016/j.jss.2020.
 
 ```
@@ -454,6 +454,75 @@ Document Type: Review
 Publication Stage: Final
 Source: Scopus
 ```
+
+-  BIB (Referencia tex de Scholar): 
+ ```
+@article{lenarduzzi2020does,
+  title={Does migrating a monolithic system to microservices decrease the technical debt?},
+  author={Lenarduzzi, Valentina and Lomio, Francesco and Saarim{\"a}ki, Nyyti and Taibi, Davide},
+  journal={Journal of Systems and Software},
+  pages={110710},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+-   DEF_CQ_ABSTRACT 
+```
+NULL
+```
+-  DEF_CQ_PAPER 
+```
+NULL
+```
+-  CQ_ARQ_ATRIB
+```
+software maintenance, reliability, maintainability, security, performance, security, transferability, changeability, decreasing delivery time, scalability , funcionability, usability , portability
+```
+- CQ_PRAC/TECN
+```
+NULL
+```
+- CQ_METH/PROC/STD
+```
+SQUALE method, ISO-9126, ISO/IEC 25010, Focus Group
+```
+- CQ_PEOP
+`Teams`
+- CQ_TOOL
+`static analysis tools and architectural analisis tools, SonarQube, CAST, Coverity Scan, SQUORE, Designite`
+- CQ_OTROS: 
+`code smells, anti-patters, model-view-controller, issues, microservice architecture, development process, deploying operating and upgrading, refactoring, techinical debt, bad smells, unit testing, architectural decisions, integration tests, bad smels, architectural smells`
+- Comments:
+`"SonarQube calculates TD(Technical Debt) using SQAL \cite{mordal2009squale} (an ISO 9126 method) based on 5 categories \curtis2012estimating : robustness, performance, security, transferability and changeability"`
+`We analyzed the TD provided by SonarQube considering the following types of ID issues "SonarQube" Technical Debt, also called "Mantenability Remediation Effort (issues classified by SonarQube as "Code Smells".. Reliability Remediation Effort ( issues classified as "Bugs") .. Security Remediation Effort (issues classified as "Security Vulnerabilities"))
+
+ISO/IEC 25010 quality caracteristics (funcionability, performance/efficiency, compatibility, usability, reliability, security, mainteninability, and portability)"
+
+Muy interesante el Apéndice (anexo) donde se establecen los pasos en tres principales categorias , protocolo de estudio y subestudios, procedimientos , estudio de datos, extraccion y seleccoin de participantes y selecocin de focus group y especificación de ópreguntas de instrumento de investigación. 
+`
+
+- CQ_CITE_@ref: 
+`@inproceedings{mordal2009squale,
+  title={The squale model—A practice-based industrial quality model},
+  author={Mordal-Manet, Karine and Balmas, Fran{\c{c}}oise and Denier, Simon and Ducasse, St{\'e}phane and Wertz, Harald and Laval, Jannik and Bellingard, Fabrice and Vaillergues, Philippe},
+  booktitle={2009 IEEE International Conference on Software Maintenance},
+  pages={531--534},
+  year={2009},
+  organization={IEEE}
+}
+@article{curtis2012estimating,
+  title={Estimating the principal of an application's technical debt},
+  author={Curtis, Bill and Sappidi, Jay and Szynkarski, Alexandra},
+  journal={IEEE software},
+  volume={29},
+  number={6},
+  pages={34--42},
+  year={2012},
+  publisher={IEEE}
+}
+`
+
+---
 6) Kolahdouz-Rahimi, S., Lano, K., Sharbaf, M., Karimi, M., Alfraihi, H.
 
 # 6. A comparison of quality flaws and technical debt in model transformation specifications
