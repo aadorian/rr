@@ -74,6 +74,8 @@ NULL
 `NULL`
 - CQ_OTROS: 
 `NULL`
+- CQ_APPROACH: 
+- `Low/High`
 - COMMENTS:
 
 ---
@@ -149,6 +151,7 @@ NULL
 
 -  COMMENTS : - `Case Study dentro del contexto de ESE (Empirical Software Eng.)` `menciona a GIT como tecnología y GITHub como repo central` y `PI asociada al tema RQ2. Does code quality affect pull request acceptance?... 'Pull request are a verypoerfull instrument', Aporte de este paper: Code qualite does not seem to be a keydriver for the acceptance of PR`
 
+- CQ_APPROACH: High
 ---
 
 - CQ_CITE_@ref: 
@@ -178,7 +181,12 @@ NULL
 |CQ_OTROS | En el artículo se presentan otras referencias a conceptos asociados a CQ que no necesariamente estan dentro de la clasificación de CQ_* |
 |CQ_CITE_@ref| El paper menciona una cita a otro artículo que hace referencia a conceptos y en particular la definición de CQ. @REF el es el bibtex de dicho artículo| 
 |COMMENTS | Comentarios en relación al artículo||
-
+|CQ_APPROACH| Low : el paper menciona superficalmente los conceptos de QC , High: el paper trata no superficialmente los aspectos de CQ||
+- Author / TimeStamp Start/ End
+> [name= nombre del autor]
+> TimeStamp ( la untización de versionado permite ver el tiempo)
+> START_[time=Sat, Nov 21, 2020 19:15PM]
+> END_ [time=Sat, Nov 21, 2020 19:50 PM]
 
 
 ---
@@ -439,14 +447,13 @@ Document Type: Article
 Publication Stage: Final
 Source: Scopus
 ```
+
+
+- [x] # 5. Does migrating a monolithic system to microservices decrease the technical debt?
 5) Lenarduzzi, V., Lomio, F., Saarimäki, N., Taibi, D.
 
-# 5. Does migrating a monolithic system to microservices decrease the technical debt?
 
-```
-(2020) Journal of Systems and Software, 169, art. no. 110710,. Cited 1 time.
-```
-- [] 5) https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087383887&doi=10.1016%2fj.jss.2020.110710&partnerID=40&md5=eecb57d0a427b954cb57b950789b
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087383887&doi=10.1016%2fj.jss.2020.110710&partnerID=40&md5=eecb57d0a427b954cb57b950789b
 DOI: 10.1016/j.jss.2020.
 
 ```
@@ -454,7 +461,9 @@ Document Type: Review
 Publication Stage: Final
 Source: Scopus
 ```
-
+```
+(2020) Journal of Systems and Software, 169, art. no. 110710,. Cited 1 time.
+```
 -  BIB (Referencia tex de Scholar): 
  ```
 @article{lenarduzzi2020does,
@@ -492,13 +501,14 @@ SQUALE method, ISO-9126, ISO/IEC 25010, Focus Group
 `static analysis tools and architectural analisis tools, SonarQube, CAST, Coverity Scan, SQUORE, Designite`
 - CQ_OTROS: 
 `code smells, anti-patters, model-view-controller, issues, microservice architecture, development process, deploying operating and upgrading, refactoring, techinical debt, bad smells, unit testing, architectural decisions, integration tests, bad smels, architectural smells`
+- CQ_APPROACH: `High`
 - Comments:
 `"SonarQube calculates TD(Technical Debt) using SQAL \cite{mordal2009squale} (an ISO 9126 method) based on 5 categories \curtis2012estimating : robustness, performance, security, transferability and changeability"`
 `We analyzed the TD provided by SonarQube considering the following types of ID issues "SonarQube" Technical Debt, also called "Mantenability Remediation Effort (issues classified by SonarQube as "Code Smells".. Reliability Remediation Effort ( issues classified as "Bugs") .. Security Remediation Effort (issues classified as "Security Vulnerabilities"))
 
 ISO/IEC 25010 quality caracteristics (funcionability, performance/efficiency, compatibility, usability, reliability, security, mainteninability, and portability)"
 
-Muy interesante el Apéndice (anexo) donde se establecen los pasos en tres principales categorias , protocolo de estudio y subestudios, procedimientos , estudio de datos, extraccion y seleccoin de participantes y selecocin de focus group y especificación de ópreguntas de instrumento de investigación. 
+`Muy interesante el Apéndice (anexo) donde se establecen los pasos en tres principales categorias , protocolo de estudio y subestudios, procedimientos , estudio de datos, extraccion y seleccoin de participantes y selecocin de focus group y especificación de ópreguntas de instrumento de investigación. `
 `
 
 - CQ_CITE_@ref: 
@@ -522,11 +532,21 @@ Muy interesante el Apéndice (anexo) donde se establecen los pasos en tres princ
 }
 `
 
----
-6) Kolahdouz-Rahimi, S., Lano, K., Sharbaf, M., Karimi, M., Alfraihi, H.
+- Author / TimeStamp Start/ End
+> [name=Alejandro Adorjan]
+> START_[time=Sat, Nov 21, 2020 19:15PM]
+> END_ [time=Sat, Nov 21, 2020 19:50 PM]
+
+
+
+
+
+
 
 # 6. A comparison of quality flaws and technical debt in model transformation specifications
 
+---
+6) Kolahdouz-Rahimi, S., Lano, K., Sharbaf, M., Karimi, M., Alfraihi, H.
 ```
 (2020) Journal of Systems and Software, 169, art. no. 110684,. Cited 1 time.
 ```
@@ -540,9 +560,7 @@ Source: Scopus
 ```
 7) Antinyan, V.
 
-# 7. Evaluating Essential and Accidental Code Complexity Triggers by Practitioners&amp;rsquo;
-
-# Perception
+# 7. Evaluating Essential and Accidental Code Complexity Triggers by Practitioners Perception
 
 ```
 (2020) IEEE Software, 37 (6), art. no. 9007382, pp. 86-93.
@@ -598,7 +616,7 @@ Source: Scopus
 ```
 10) Abdellatif, A., Zeng, Y., Elshafei, M., Shihab, E., Shang, W.
 
-# 10. Simplifying the Search of npm Packages
+- [x] # 10. Simplifying the Search of npm Packages
 
 ```
 (2020) Information and Software Technology, 126, art. no. 106365,.
@@ -611,6 +629,53 @@ Document Type: Article
 Publication Stage: Final
 Source: Scopus
 ```
+
+-  BIB (Referencia tex de Scholar): 
+ ```
+@article{abdellatif2020simplifying,
+  title={Simplifying the Search of npm Packages},
+  author={Abdellatif, Ahmad and Zeng, Yi and Elshafei, Mohamed and Shihab, Emad and Shang, Weiyi},
+  journal={Information and Software Technology},
+  pages={106365},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+-   DEF_CQ_ABSTRACT 
+```
+NULL
+```
+-  DEF_CQ_PAPER 
+```
+NULL
+```
+-  CQ_ARQ_ATRIB
+```
+quality, popularity, maintenance
+```
+- CQ_PRAC/TECN
+```
+NULL
+```
+- CQ_METH/PROC/STD
+```
+NULL
+```
+- CQ_PEOP
+`Developer community`
+- CQ_TOOL
+`Stack Overflow, GitHub, RabbitMQ (module mantains all npm packages, ElasticSeach, linterns, VM on AWS (Virtual Machines on Amazon Web Services)`
+- CQ_OTROS: 
+`Javascript, Node Package Manager (npm), package Metrics, API, test, coverag`, `Source code and comments `
+- CQ_APPROACH: 
+- `Low`
+- COMMENTS:
+`Npms ranks are grouped in three main categories : quality, popularity and maintenance`, `The main goil of this paper is to reduce the complexity and imporve the efficiency of the current npms implementation while preserving its results`
+
+- Author / TimeStamp Start/ End
+> [name= Ale]
+> START_[time=22:10]
+> END_ [time=22:25]
 11) Pecorelli, F., Di Lillo, G., Palomba, F., De Lucia, A.
 
 # 11. VITRuM: A Plug-In for the Visualization of Test-Related Metrics
@@ -865,6 +930,41 @@ Workshops, ICSEW 2020, pp. 315-322.
 25) https://www.scopus.com/inward/record.uri?eid=2-s2.0-85093099001&doi=10.1145%2f3387940.3392191&partnerID=40&md5=96c8e0baceacad9ad232dca088615aa
 DOI: 10.1145/3387940.
 
+-  BIB (Referencia tex de Scholar): 
+ ```
+NULL
+```
+-   DEF_CQ_ABSTRACT 
+```
+NULL
+```
+-  DEF_CQ_PAPER 
+```
+NULL
+```
+-  CQ_ARQ_ATRIB
+```
+NULL
+```
+- CQ_PRAC/TECN
+```
+Heuristic based approaches, machine learning-based approaches, refactoring, machine learning algorithms.
+```
+- CQ_METH/PROC/STD
+```
+NULL
+```
+- CQ_PEOP
+`NULL`
+- CQ_TOOL
+`JDeodorant, JMove`
+- CQ_OTROS: 
+`code smell ..."mell relates to situation when a method is more interested in the content or behaviour of another class than in its original class.. refactoring tends to make software eaier to understand and mantein.. manually checking the source code to identify refactoring oportunities is a tiresome and time consuming process"`
+
+- CQ_APPROACH: Low
+- COMMENTS:
+
+---
 ```
 Document Type: Conference Paper
 Publication Stage: Final
