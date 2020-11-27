@@ -72,21 +72,6 @@ NULL
 `NULL`
 - CQ_TOOL
 `NULL`
-- CQ_OTROS: 
-`NULL`
-- CQ_APPROACH: 
-- `Low/High`
-- COMMENTS:
-
----
-
-Protocolo en relacion a una segunda iteración. 
-Seleccionamos de los 60 artículos el indexado 5,10,15,25, y 30 para complementar el ya analizado previamente y realizar una primera extracción de aplicacion del template
-
-Cada paper se imprimió y establecie el etiquetado (algo parecido a lo realizadao en paper anterior y posteriormente search en mendeley para poder replicar)
-
--  Comentarios : - ``
----
 
 - CQ_CITE_@ref: 
 ```
@@ -97,6 +82,18 @@ NULL
 > [name= ]
 > START_[time=]
 > END_ [time=]
+
+
+
+---
+
+```
+Cada paper se imprimió y establece el etiquetado (algo parecido a lo realizadao en paper anterior y posteriormente search en mendeley para poder replicar)
+
+relevancia de versionado de esta herramienta y subir al repo GitHub
+```
+
+
 
 
 
@@ -147,7 +144,6 @@ NULL
 ` Code Smells, anti patterns, code Style, clean code, git , gitHub`
 
 
----
 
 -  COMMENTS : - `Case Study dentro del contexto de ESE (Empirical Software Eng.)` `menciona a GIT como tecnología y GITHub como repo central` y `PI asociada al tema RQ2. Does code quality affect pull request acceptance?... 'Pull request are a verypoerfull instrument', Aporte de este paper: Code qualite does not seem to be a keydriver for the acceptance of PR`
 
@@ -164,6 +160,9 @@ NULL
 > START_[time=Sun, Nov 8, 2020 3:55 PM]
 > END_ [time=Sun, Nov 8, 2020 4:15 PM]
 
+
+
+---
 
 
 
@@ -449,8 +448,8 @@ Source: Scopus
 ```
 
 
-- [x] # 5. Does migrating a monolithic system to microservices decrease the technical debt?
-5) Lenarduzzi, V., Lomio, F., Saarimäki, N., Taibi, D.
+# 5. Does migrating a monolithic system to microservices decrease the technical debt?
+- [x] 5) Lenarduzzi, V., Lomio, F., Saarimäki, N., Taibi, D.
 
 
 https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087383887&doi=10.1016%2fj.jss.2020.110710&partnerID=40&md5=eecb57d0a427b954cb57b950789b
@@ -614,10 +613,11 @@ Publication Stage: Final
 Access Type: Open Access
 Source: Scopus
 ```
-10) Abdellatif, A., Zeng, Y., Elshafei, M., Shihab, E., Shang, W.
 
-- [x] # 10. Simplifying the Search of npm Packages
 
+# 10. Simplifying the Search of npm Packages
+
+- [x] 10) Abdellatif, A., Zeng, Y., Elshafei, M., Shihab, E., Shang, W.
 ```
 (2020) Information and Software Technology, 126, art. no. 106365,.
 ```
@@ -741,9 +741,11 @@ Document Type: Conference Paper
 Publication Stage: Final
 Source: Scopus
 ```
-15) Da Silva, M.C., Cizotto, A.A.J., Paraiso, E.C.
 
 # 15. A Developer Recommendation Method Based on Code Quality
+
+- [x] 15) Da Silva, M.C., Cizotto, A.A.J., Paraiso, E.C.
+
 
 ```
 (2020) Proceedings of the International Joint Conference on Neural Networks, art. no. 9207116,.
@@ -756,6 +758,71 @@ Document Type: Conference Paper
 Publication Stage: Final
 Source: Scopus
 ```
+
+-  BIB (Referencia tex de Scholar): 
+ ```
+NULL
+```
+-   DEF_CQ_ABSTRACT 
+```
+NULL
+```
+-  DEF_CQ_PAPER 
+```
+NULL
+```
+-  CQ_ARQ_ATRIB
+```
+maintenance, complexity, maintainability, testability
+```
+- CQ_PRAC/TECN
+```
+quality assurance,
+```
+- CQ_METH/PROC/STD
+```
+NULL
+```
+- CQ_PEOP
+`Collaborative development, development teams, experience of developers, collaborative environment, collaborative development environment`
+- CQ_TOOL
+`Software Management Tool, GitHub, CK (tool to classify the code qaulity metrics proposed by @chidamber1991towards)`
+- CQ_OTROS: 
+`code quality metrics, repositories mining, NPL (Natural Language Processing), Information Retrieval (IR), Machine Learning(ML) , Techniques, VCS Version Control Systems, bugs, NLP techniques, issues, request, code repository mining, code quality metrics, bad quality metrics, code quality metrics commits`
+- CQ_APPROACH: 
+- `Low`
+- COMMENTS:
+..`When taking into account only the level of experience of developers as a factor for the recomentation process, code quality is put as rish, as the impact code changes may have is not accessed`..
+```
+The quality of the code produced by a developer does not relate to the type of activity,and the latter condiders than the expertise of a developer is unrelated to the quality of code produced.
+```
+```
+interesante life cicle de change request y valores de resolucion FIXED,INVALID, WONTFIX,DUPLICATE,WORKSFORME.
+```
+```
+..."developers are ordered according to their impact on code quality"
+```
+```
+There's statistically difference between both methods concerning the recommending of developers with a better impact to a repository's code quality 
+```
+```
+El paper propone un modelo de desarrollo dinámico desde la composicion representación, adquisición aprendizaje y mantenimeitno. Presentando un conjunto de métricas dirijidas a la codificación
+```
+- CQ_CITE_@ref: 
+```
+@inproceedings{chidamber1991towards,
+  title={Towards a metrics suite for object oriented design},
+  author={Chidamber, Shyam R and Kemerer, Chris F},
+  booktitle={Conference proceedings on Object-oriented programming systems, languages, and applications},
+  pages={197--211},
+  year={1991}
+}
+```
+---
+> [name= Ale]
+> START_[time=Tue, Nov 24, 2020 21:35:15PM]
+> END_ [time=Tue, Nov 24, 2020 22:07 PM]
+> 
 16) Block, M., Barcaskey, B., Nimmo, A., Alnaeli, S., Gilbert, I., Altahat, Z.
 
 
@@ -848,6 +915,60 @@ Publication Stage: Final
 Access Type: Open Access
 Source: Scopus
 ```
+-  BIB (Referencia tex de Scholar): 
+ ```
+@inproceedings{jebnoun2020scent,
+  title={The Scent of Deep Learning Code: An Empirical Study},
+  author={Jebnoun, Hadhemi and Ben Braiek, Houssem and Rahman, Mohammad Masudur and Khomh, Foutse},
+  booktitle={Proceedings of the 17th International Conference on Mining Software Repositories},
+  pages={420--430},
+  year={2020}
+}
+```
+-   DEF_CQ_ABSTRACT 
+```
+NULL
+```
+-  DEF_CQ_PAPER 
+```
+NULL
+```
+-  CQ_ARQ_ATRIB
+```
+maintenance, performance, quality of deep learning code, code smells, 
+```
+- CQ_PRAC/TECN
+```
+training algorithms, machine learning algorithms, bugfixing, refactoring
+```
+- CQ_METH/PROC/STD
+```
+NULL
+```
+- CQ_PEOP
+`NULL`
+- CQ_TOOL
+`TensorFlow , Pythorch, GitHub, Github Search API, PySmell`
+- CQ_APPROACH: 
+- `Low`
+- CQ_OTROS:
+```
+Deep Learning (DL) es a type of machine learning that uses artificial neural network with multiple hidden layers" .. code smels .. "Poor coding practices and quick solutions often result in low quality code containen various code smells. The presence of code smells within the software systems might incidentally degrade their quality and performance" ..These smells do not prevent the program from working, however they are a violation of the best practices that may increse the risk of software bugs or failures in the future.
+```
+- CQ_CITE_@ref: 
+```
+NULL
+```
+- CQ_Comments
+```
+10 selected code smels:
+Long Method (LM), Long Scope Chaining, ... Long...SLOC (Source Line of Code)
+```
+
+- Author / TimeStamp Start/ End
+> [name= Ale]
+> START_[time= 27 Nov 2020, 8:00]
+> END_ [time=]
 21) Walden, J.
 
 # 21. The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL
@@ -1575,3 +1696,19 @@ Document Type: Article
 Publication Stage: Final
 Source: Scopus
 ```
+
+
+# * Protocolo:
+
+1. Seleccion de artículos de Scopus periodo 2019 y 2020 asociados a la búsqueda code AND code quality
+2. Exportación de bib para poder utilizar (utilizad de Scopus)
+3. Download de los articulos y vinculación vía Mendeley ('pendiente')
+4. Con el bib exportado creación del listado de artículos 
+5. Diseño del template a completar
+6. En este caso particular se utilizo una herramienta colaborativa dodne en una primera iteración cada investigador realiza por separado la extracción e identifica los atributos de Q de código, prácticas metdos etc. 
+7. En una segunta iteracón ise ajustan los tags
+8. Se decidió  selección 5 papers con los id 5,10,15,20,25 para realizar una primera reónvisi.
+9. Se utilizó una guia de colores y etiquetas (originamente utilizado por el análisis temático para establecer la codificación y posterior extracción y digitalización. TODO: Sacar foto)
+10. Se imprimieron los paper (y se realizó en paper para despues poder ver lo factible de realizarlo en otras herramientas como Atlas TI )
+11. Una vez identificado el analisis temático en las categorías existentes se calificó como Low o High el grado de relación con la tematica de Q código ( una alternativa podria ser una escala de likert)
+12. Varías ventajas de la utilización de hackmd como entorno colaborativo en relación al versionado, time stamp e integración con git, para posible extensión y replicación
