@@ -12,7 +12,7 @@ _PI : ¿Qué se entiende por Calidad de Código?
 
 _PI: ¿Qué técnicas, métodos, prácticas, estándares y herramientas se utilizan en la industria para controlar la calidad del código?
 
-_PI; ¿Qué atributos de Q de código se prenentan en los artículos seleccionados?
+_PI; ¿Qué atributos de Q de código se presentan en los artículos seleccionados?
 
 Def. QC:   * {max min (ATRIB_Q Interna/Externa) (Costos)}
             sa restricciones contexto* 
@@ -906,7 +906,7 @@ Source: Scopus
 (2020) Proceedings - 2020 IEEE/ACM 17th International Conference on Mining Software
 Repositories, MSR 2020, pp. 420-430.
 ```
-20) https://www.scopus.com/inward/record.uri?eid=2-s2.0-85093683910&doi=10.1145%2f3379597.3387479&partnerID=40&md5=ecc5dad25efffa1c2608f7fc4d7b1a
+20) [x] https://www.scopus.com/inward/record.uri?eid=2-s2.0-85093683910&doi=10.1145%2f3379597.3387479&partnerID=40&md5=ecc5dad25efffa1c2608f7fc4d7b1a
 DOI: 10.1145/3379597.
 
 ```
@@ -968,7 +968,7 @@ Long Method (LM), Long Scope Chaining, ... Long...SLOC (Source Line of Code)
 - Author / TimeStamp Start/ End
 > [name= Ale]
 > START_[time= 27 Nov 2020, 8:00]
-> END_ [time=]
+> END_ [time=27 Nov 2020, 8:25]
 21) Walden, J.
 
 # 21. The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL
@@ -1078,11 +1078,11 @@ NULL
 - CQ_PEOP
 `NULL`
 - CQ_TOOL
-`JDeodorant, JMove`
+`JDeodorant, JMove, GitHub`
 - CQ_OTROS: 
-`code smell ..."mell relates to situation when a method is more interested in the content or behaviour of another class than in its original class.. refactoring tends to make software eaier to understand and mantein.. manually checking the source code to identify refactoring oportunities is a tiresome and time consuming process"`
+`code smell ..."smell relates to situation when a method is more interested in the content or behaviour of another class than in its original class.. refactoring tends to make software eaier to understand and mantein.. manually checking the source code to identify refactoring oportunities is a tiresome and time consuming process"`
 
-- CQ_APPROACH: Low
+- CQ_APPROACH: ```Low```
 - COMMENTS:
 
 ---
@@ -1578,7 +1578,7 @@ Source: Scopus
 ```
 54) Guo, C., Yang, H., Huang, D., Zhang, J., Dong, N., Xu, J., Zhu, J.
 
-# Review Sharing via Deep Semi-Supervised Code Clone Detection
+# 54 Review Sharing via Deep Semi-Supervised Code Clone Detection
 
 ```
 (2020) IEEE Access, 8, art. no. 8959206, pp. 24948-24965.
@@ -1707,7 +1707,7 @@ Source: Scopus
 5. Diseño del template a completar
 6. En este caso particular se utilizo una herramienta colaborativa dodne en una primera iteración cada investigador realiza por separado la extracción e identifica los atributos de Q de código, prácticas metdos etc. 
 7. En una segunta iteracón ise ajustan los tags
-8. Se decidió  selección 5 papers con los id 5,10,15,20,25 para realizar una primera reónvisi.
+8. Se decidió  selección 5 papers con los id 5,10,15,20,25 para realizar una primera revisión.
 9. Se utilizó una guia de colores y etiquetas (originamente utilizado por el análisis temático para establecer la codificación y posterior extracción y digitalización. TODO: Sacar foto)
 10. Se imprimieron los paper (y se realizó en paper para despues poder ver lo factible de realizarlo en otras herramientas como Atlas TI )
 11. Una vez identificado el analisis temático en las categorías existentes se calificó como Low o High el grado de relación con la tematica de Q código ( una alternativa podria ser una escala de likert)
