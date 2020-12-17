@@ -1712,3 +1712,41 @@ Source: Scopus
 10. Se imprimieron los paper (y se realizó en paper para despues poder ver lo factible de realizarlo en otras herramientas como Atlas TI )
 11. Una vez identificado el analisis temático en las categorías existentes se calificó como Low o High el grado de relación con la tematica de Q código ( una alternativa podria ser una escala de likert)
 12. Varías ventajas de la utilización de hackmd como entorno colaborativo en relación al versionado, time stamp e integración con git, para posible extensión y replicación
+
+
+https://docs.google.com/spreadsheets/d/1tyPNl7IDVg29RGK-X7flQtQUVPz1TdVHXBZLJPpyiuc/edit#gid=0
+
+![](https://i.imgur.com/ujcblVh.jpg)
+
+# * Extracción:
+**CQ_ATRIB**	mantenibilidad,tolerancia a fallas,defectos,
+estilo de codificación, diseño, error prone, documentation,performance,
+seguridad"	software maintenance, reliability, maintainability, security, performance, security, transferability, changeability, decreasing delivery time, scalability , funcionability, usability , portability	quality, popularity, maintenance	maintenance, complexity, maintainability, testability	maintenance, performance, quality of deep learning code, code smells, 
+
+**CQ_PRAC/TECN**	Code Review, Pull Requests, Technical Debt, Static Code Analisis training algorithms, machine learning algorithms, bugfixing, refactoring
+
+**CQ_METH/PROC/STD**		SQUALE method, ISO-9126, ISO/IEC 25010, Focus Group		quality assurance	
+
+
+**CQ_PEOP**		Teams	Developer community	Collaborative development, development teams, experience of developers, collaborative environment, collaborative development environment	
+
+**CQ_TOOL**	Checkstyle, Findbugs, SonarQube	static analysis tools and architectural analisis tools, SonarQube, CAST, Coverity Scan, SQUORE, Designite	"Stack Overflow, GitHub, RabbitMQ (module mantains all npm packages, ElasticSeach, linterns, VM on AWS (Virtual Machines on Amazon Web Services), Software Management Tool, GitHub, CK (tool to classify the code qaulity metrics proposed by @chidamber1991towards)	TensorFlow , Pythorch, GitHub, Github Search API, PySmell
+
+**CQ_OTROS**	Code Smells, anti patterns, code Style, clean code, git , gitHub	code smells, anti-patters, model-view-controller, issues, microservice architecture, development process, deploying operating and upgrading, refactoring, techinical debt, bad smells, unit testing, architectural decisions, integration tests, bad smels, architectural smells	Javascript, Node Package Manager (npm), package Metrics, API, test, coverag, Source code and comments 	code quality metrics, repositories mining, NPL (Natural Language Processing), Information Retrieval (IR), Machine Learning(ML) , Techniques, VCS Version Control Systems, bugs, NLP techniques, issues, request, code repository mining, code quality metrics, bad quality metrics, code quality metrics commits	Deep Learning (DL) es a type of machine learning that uses artificial neural network with multiple hidden layers" .. code smels .. "Poor coding practices and quick solutions often result in low quality code containen various code smells. The presence of code smells within the software systems might incidentally degrade their quality and performance" ..These smells do not prevent the program from working, however they are a violation of the best practices that may increse the risk of software bugs or failures in the future.
+
+**Propuesta a finalizar esta etapa:** indagar los restantes en una sola categoría .. parece ser posible que cada paper esta enfocado en una espécifica .. dejar lo general para ir a lo particular.. 
+
+**Síntesis:** 
+
+**La definición** de QC es la unión de las categorizaciones de CQ_ATRIB
+CQ_PRAC/TECN
+CQ_METH/PROC/STD
+CQ_TOOL y donde la intersección es CQ_PEOP y eso en cada USECASE_CONTEXT .. y dentro de cada CQ_PEOPLE  hay un background de enfoque (un yo) de calidad donde la educación, experiencia, motivación, etc impactan en el todo.
+
+Por eso sería importante bajar a un nivel especifico estos puntos .. pongo Blockchain como ejemplo (antes de mandar mail y proposal)
+
+Nota: 
+https://ieeexplore.ieee.org/document/6312975
+Podria a su ver categorizarse la definición como lo propuesto por basili 1986 
+Motivación -  Objeto - Proposito - Perspectiva - Dominio - Alcance 
+
