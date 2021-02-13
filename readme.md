@@ -1,11 +1,12 @@
 [![hackmd-github-sync-badge](https://hackmd.io/re_vKvaTQnq7NhaQ-9sxQQ/badge)](https://hackmd.io/re_vKvaTQnq7NhaQ-9sxQQ)
-**#Protocol RR **
+# Protocol RR 
 
 ## Rapid Review Code Quality
 
-RRapid Review : 
+Rapid Review : 
 https://docs.google.com/spreadsheets/d/17pbls64cH_0PMY0uaK-IZt8mRI4gKkvyEiknOlUNq0E/edit?usp=sharing
 
+Avance : 20 primeros articulos con proceso de búsqueda . 
 
 * Motivación - No se presenta en la literatura una definición de consenso respecto de que se entiende por calidad de código.
 Objetivo :  Lograr una definición de QC y sus principales características / dimensiones a partir de una RR.
